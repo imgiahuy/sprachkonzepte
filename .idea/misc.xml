@@ -26,10 +26,10 @@
         <PerGrammarGenerationSettings>
           <option name="fileName" value="$PROJECT_DIR$/src/main/java/aufgabe2/aufgabe2a/bestellungslexer.g4" />
           <option name="autoGen" value="true" />
-          <option name="outputDir" value="C:\sem7\SPR-KZ\SPRKZ\src\main\java\aufgabe2\aufgabe2a" />
+          <option name="outputDir" value="" />
           <option name="libDir" value="" />
           <option name="encoding" value="UTF-8" />
-          <option name="pkg" value="auto-generate" />
+          <option name="pkg" value="" />
           <option name="language" value="" />
           <option name="generateVisitor" value="true" />
         </PerGrammarGenerationSettings>
@@ -37,6 +37,66 @@
           <option name="fileName" value="$PROJECT_DIR$/src/main/java/aufgabe2/aufgabe2a/bestellungsparser.g4" />
           <option name="autoGen" value="true" />
           <option name="outputDir" value="C:\sem7\SPR-KZ\SPRKZ\src\main\java\aufgabe2\aufgabe2a" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="utf-8" />
+          <option name="pkg" value="gen" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/src/main/java/aufgabe2/aufgabe2ab/bestellungsparser.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\sem7\SPR\sprachkonzepte\src\main\java\aufgabe2\aufgabe2ab" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="utf-8" />
+          <option name="pkg" value="gen" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/src/main/java/aufgabe2/aufgabe2ab/bestellungslexer.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\sem7\SPR\sprachkonzepte\src\main\java\aufgabe2\aufgabe2ab" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="utf-8" />
+          <option name="pkg" value="lexer" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/src/main/java/aufgabe2/aufgabe2ab/lexer/bestellungsparser.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\sem7\SPR\sprachkonzepte\src\main\java\aufgabe2\aufgabe2ab" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="utf-8" />
+          <option name="pkg" value="gen" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/src/main/java/aufgabe2/aufgabe2ab/lexer/bestellungs.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\sem7\SPR\sprachkonzepte\src\main\java\aufgabe2\aufgabe2ab" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="utf-8" />
+          <option name="pkg" value="gen" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/src/main/java/aufgabe2/aufgabe2ab/bestellungs.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\sem7\SPR\sprachkonzepte\src\main\java\aufgabe2\aufgabe2ab" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="utf-8" />
+          <option name="pkg" value="gen" />
+          <option name="language" value="" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/src/main/java/aufgabe2/aufgabe2ab/bestellungsParser.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\sem7\SPR\sprachkonzepte\src\main\java\aufgabe2\aufgabe2ab" />
           <option name="libDir" value="" />
           <option name="encoding" value="utf-8" />
           <option name="pkg" value="gen" />
