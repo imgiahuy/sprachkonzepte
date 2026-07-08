@@ -1,0 +1,52 @@
+delimiters "$", "$"
+
+page(classes) ::= <<
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<style type="text/css">
+th, td { border-bottom: thin solid; padding: 4px; text-align: left; }
+td { font-family: monospace }
+</style>
+</head>
+<body>
+<h1>Sprachkonzepte, Aufgabe 6</h1>
+$classes:classOrInterface()$
+</body>
+</html>
+>>
+
+classOrInterface(c) ::= <<
+$if(c.interface)$
+$interfaceEntry(c)$
+$else$
+$classEntry(c)$
+$endif$
+>>
+
+classEntry(c) ::= <<
+<h2>class $c.name$:</h2>
+<table>
+<tr><th>Interface</th><th>Methods</th></tr>
+$c.interfaces:interfaceRow()$
+</table>
+<br>
+>>
+
+interfaceEntry(c) ::= <<
+<h2>interface $c.name$:</h2>
+<table>
+<tr><th>Methods</th></tr>
+<tr><td>$c.methods:methodSig(); separator="<br>\n"$</td></tr>
+</table>
+<br>
+>>
+
+interfaceRow(iface) ::= <<
+<tr>
+<td valign=top>$iface.name$</td>
+<td>$iface.methods:methodSig(); separator="<br>\n"$</td>
+</tr>
+>>
+
+methodSig(m) ::= "$m.returnType$ $m.name$($m.paramTypes; separator=\", \"$)"
